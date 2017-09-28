@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>meltomo</title>
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- THEME CSS -->
+		<link href="../assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="../assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="../assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="../assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<link rel="shortcut icon" href="../assets/images/meltomo/MeltomoLogo.ico">
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+		
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+<div id="header" class="sticky clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						
+
+						<!-- Logo -->
+						<a class="logo pull-left" href="index.html">
+							<img src="../assets/images/meltomo/Meltomo-logo.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse pull-right nav-main-collapse collapse">
+							<nav class="nav-main">
+
+								<!--
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main">
+									<li><!-- HOME -->
+										<a href="../index.html">
+											HOME
+										</a>
+										
+									</li>
+									<li><!-- ABOUT US -->
+										<a href="../about-us/index.html">
+											ABOUT US
+										</a>
+										
+									</li>
+									<li class="dropdown"><!-- CONTENTS -->
+										<a class="dropdown-toggle" href="../contents/index.html">
+											CONTENTS
+										</a>
+										<ul class="dropdown-menu">
+											
+											<li><a href="../japanese-urban-dictionary/index.html"><i class="et-alarmclock"></i> JAPANESE URBAN DICTIONARY</a></li>
+											
+											
+										</ul>
+									</li>
+									<li ><!-- PORTFOLIO -->
+										<a href="../career/index.html">
+											CAREER
+										</a>
+										
+									</li>
+									
+									
+									
+										</ul>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+
+			<!-- 
+				PAGE HEADER 
+				
+				CLASSES:
+					.page-header-xs	= 20px margins
+					.page-header-md	= 50px margins
+					.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+					.dark			= dark page header
+
+					.shadow-before-1 	= shadow 1 header top
+					.shadow-after-1 	= shadow 1 header bottom
+					.shadow-before-2 	= shadow 2 header top
+					.shadow-after-2 	= shadow 2 header bottom
+					.shadow-before-3 	= shadow 3 header top
+					.shadow-after-3 	= shadow 3 header bottom
+			-->
+		
+
+
+
+                   <section class="page-header dark page-header-xs">
+						<div class="container">
+
+					<h1>Meltomo Blog</h1>
+					<span class="font-lato size-18 weight-300 hidden-xs"></span>
+
+					<!-- breadcrumbs -->
+					<ol class="breadcrumb">
+						<li><a href="">Home</a></li>
+						<li><a href="http://meltomo-japan.com/contents/index.html">Contents</a></li>
+						<li class="active">Meltomo Blog</li>
+					</ol><!-- /breadcrumbs -->
+
+				</div>
+			</section>
+			<!-- /PAGE HEADER -->
+
+
+
+
+			<!-- -->
+			<section>
+				<div class="container">
+
+
+					<div class="clearfix margin-bottom-60">
+						<!-- OWL SLIDER -->
+						<div class="owl-carousel buttons-autohide controlls-over" data-plugin-options='{"items": 1, "autoPlay": 4500, "autoHeight": false, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "progressBar":"false"}'>
+							<a class="lightbox" href="assets/images/demo/1200x800/10-min.jpg" data-plugin-options='{"type":"image"}'>
+								<img class="img-responsive" src="assets/images/demo/content_slider/10-min.jpg" alt="" />
+							</a>
+							<a class="lightbox" href="assets/images/demo/1200x800/3-min.jpg" data-plugin-options='{"type":"image"}'>
+								<img class="img-responsive" src="assets/images/demo/content_slider/3-min.jpg" alt="" />
+							</a>
+							<a class="lightbox" href="assets/images/demo/1200x800/21-min.jpg" data-plugin-options='{"type":"image"}'>
+								<img class="img-responsive" src="assets/images/demo/content_slider/21-min.jpg" alt="" />
+							</a>
+						</div>
+						<!-- /OWL SLIDER -->
+
+						<!-- IMAGE -->
+						<!--
+						<figure>
+							<img class="img-responsive" src="assets/images/demo/content_slider/10-min.jpg" alt="img" />
+						</figure>
+						-->
+						<!-- /IMAGE -->
+
+						<!-- VIDEO -->
+						<!--
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="http://player.vimeo.com/video/8408210" width="800" height="450"></iframe>
+						</div>
+						-->
+						<!-- /VIDEO -->
+					</div>
+
+
+					<div class="row">
+
+						<!-- LEFT -->
+						<div class="col-md-9 col-sm-9">
+
+							<h1 class="blog-post-title">ANIMAGA 2015</h1>
+							<ul class="blog-post-info list-inline">
+								<li>
+									<a href="#">
+										<i class="fa fa-clock-o"></i> 
+										<span class="font-lato">Oct, 9 2015</span>
+									</a>
+								</li>
+							
+								
+								<li>
+									<a href="#">
+										<i class="fa fa-user"></i> 
+										<span class="font-lato">VERONICA CHIA</span>
+									</a>
+								</li>
+							</ul>
+
+
+							<!-- article content -->
+							<p class="size-18">Hey everyone!
+
+I recently went to check out the annual anime convention, Animaga, at the Royal 
+
+Exhbition Building in Carlton Gardens.</p>
+
+<p class="size-18">みなさんこんにちは！
+
+最近私は毎年一回の”Animaga”というロイヤルエキシビションで開催されたア
+
+ニメ大会に参加してきました！</p>
+<p class="size-18">Spring’s finally here! Flowers are all abloom and the winter-stricken trees are
+
+growing their green leaves once again! The sun was out and it was a great day for 
+
+an event like this one!</p>
+
+<p class="size-18">春がついにやってきました！このイベントにはもってこいの最高な天気でした。</p>
+
+<p class="size-18">Being in the Royal Exhibition Building for the first time, I was stunned by how
+
+big and how beautiful the interior was. Here’s a bit of background for those who 
+
+have never heard of this building. Built in 1880, it was used as a convention hall 
+
+and was once the largest building in Australia. Furthermore, the building is listed 
+
+as a World Heritage site today.</p>
+
+<p class="size-18"> 私も実は初めて来たのですが、あまりのも大きな建物かつ美しいインテリアの数々に圧倒されました。この建物について知らない人のために、簡単な説明を加えておきますね！この建造物は1880年に建設され、展示場として使用され,オーストラリアでも最も大きな建物でした。さらに現在は世界遺産にも登録されています。</p>
+
+<p class="size-18"> The large hall was filled with booths and stalls filled with various goods to 
+
+purchase, from fanart to figurines, catering for all your obsessions.　</p>
+
+<p class="size-18"> この大きなホールでは、様々なアニメのグッズを販売しているブースがひし
+
+めき、アニメファンを満足させるようなグッズで溢れていました。</p>
+
+<p class="size-18"> There was also a booth that provided yukatas for anyone who wanted to try
+
+them on. I gladly took the chance to try out a floral light purple one that caught 
+
+my eye and was given an umbrella for a complete look. I was allowed to wear it 
+
+around the convention for some time, making me realise how difficult it was to 
+
+walk around in it as it restricted my freedom to take large strides. </p>
+
+<p class="size-18">また、日本の浴衣を試着できるブースもありました。私はすぐ目についた紫
+
+の浴衣と、伝統的な傘をチョイスしました。浴衣を着た状態で出歩くことが
+
+できたのですが、一歩を大きく踏み出すことができず、歩くのが大変でした
+
+。</p>
+
+<p class="size-18">Entering the main hall, a stage was set up and I was just in time to catch the Q&A 
+
+session with Toru Furuya, who is a famous seiyuu. FYI, a seiyuu (声優) is a
+
+Japanese term for a voice actor. Born in 1953, Furuya made his name in the 
+
+anime industry, providing his voice for many well-known animes including 
+
+Amuro Ray from Gundam, Yamcha from Dragon Ball and my favourite childhood 
+
+hero, Chiba Mamoru a.k.a. Tuxedo Kamen.</p>
+
+<p class="size-18">メインホールへ入るとステージが設置され、そこでは有名な声優である古谷
+
+徹氏によるQ&Aが行なわれていました。彼は1953年に生まれ、ガンダムのアム
+
+ロ・レイやドラゴンボールのヤムチャ、そして私の子どもの頃のヒーローで
+
+あるタキシード仮面など数々のアニメに名を刻みました。</p>
+
+<p class="size-18">Many questions were exchanged on stage, including his love for tennis and his
+
+involvement not only as a voice actor, but also a singer. He was such a good 
+
+sport, fulfilling his fans’ requests every step of the way, even playfully reciting his 
+
+infamous ‘Amuro, Gundam, Ikimasu!’ line. I was lucky enough to catch him after 
+
+his interview for a picture.</p>
+
+<p class="size-18"> そこでは、テニスが大好きなことや、声優としてだけでなく、歌手として活
+
+躍したことについてなど、多くの質問が交わされていました。彼はあらゆる
+
+面でとても優しく、アムロの台詞である「アムロ、行きまーす！」さえも読
+
+み上げていました。私は幸運なことに彼と写真を撮ることができました。</p>
+
+<p class="size-18">The main highlight of my first Animaga experience was the cosplayers! Everyone 
+
+was dressed up as their favourite characters, all colourful and eye-catching. I had 
+
+fun trying to identify and name the characters I could recognize. I also got the 
+
+opportunity to infiltrate behind the scenes of the cosplay competition. Everyone 
+
+who entered the competition had amazing costumes and most of them were 
+
+hand-made, which makes it even more fascinating. Backstage, people were 
+
+preparing what to say on stage and even rehearsing their dance moves to 
+
+impress the judges. The cosplay competition was fun and entertaining to watch. 
+
+Everyone got into character, showing off their costumes and providing 
+
+information on how they made them.</p>
+
+<p class="size-18">このアニマンガでの経験で一番面白かったのは、コスプレです。来場者はそ
+
+れぞれ自分が好きなキャラクターのコスプレをし、全てがカラフルで目をく
+
+ぎずけにするものばかりでした。コスプレからキャラクターを予測したりす
+
+るなど楽しく過ごすことが出来ました。また実は、コスプレ大会の裏側をみ
+
+ることも出来たのです。本大会に出場する人々は皆素晴らしいクオリティで
+
+多くは手作りでした。また審査員の評価を上げる為に、台詞やダンスの練習
+
+をしている人もいました。参加者はキャラクターになりきり、コスチューム
+
+を見せ合い作り方を教え合ったりしていました。</p>
+
+<p class="size-18">With the conclusion of the cosplay competition, my first Animaga convention 
+
+experience was over. I had a blast & definitely enjoyed my time dwelving into a 
+
+world I’ve never encountered before. I would totally recommend this to those 
+
+who’ve never attended an anime convention before and I hope you have as much 
+
+fun as I did.</p>
+
+<p class="size-18">このイベントの後半であったコスプレ大会を最後に、私の初経験であるアニ
+
+マンガ大会は終了しました。今まで体験したことの無いこのイベントを最大
+
+限に満喫できたと思います。まだ行ったことが無い人は是非参加してみてく
+
+ださい。必ず楽しめると思いますよ！</p>
+
+ </div>
+
+						
+							<!-- /article content -->
+<!-- RIGHT -->
+						<div class="col-md-3 col-sm-3">
+							
+							<h3 class="page-header weight-300 margin-top-60">
+								<i class="fa fa-lightbulb-o"></i> 
+								Feature <span>contents</span>
+							</h3>
+						
+
+							<!-- No #1 Hot -->
+							<div class="item-box margin-top-15">
+								<figure>
+									<a class="item-hover" href="#">
+										<span class="overlay color2"></span>
+										<span class="inner">
+											<span class="block fa fa-plus fsize20"></span>
+											<strong>READ</strong> ARTICLE
+										</span>
+									</a>
+									<img alt="" class="img-responsive" src="../assets/images/meltomo/contents/unilife.jpg" />
+								</figure>
+								<div class="item-box-desc padding-10">
+									
+									<h4><a href="#">Uni life@Melb</a></h4>
+									<p>メルボルンの大学で留学した際のアドバイスやプチ情報までをわかりやすいマンガにして掲載しています。留学準備に是非お役立てください。</p>
+								</div>
+							</div>
+							
+							<div class="item-box margin-top-15">
+								<figure>
+									<a class="item-hover" href="#">
+										<span class="overlay color2"></span>
+										<span class="inner">
+											<span class="block fa fa-plus fsize20"></span>
+											<strong>READ</strong> ARTICLE
+										</span>
+									</a>
+									<img alt="" class="img-responsive" src="../assets/images/meltomo/contents/jud.jpg" />
+								</figure>
+								<div class="item-box-desc padding-10">
+									
+									<h4><a href="#">Japanese Urban Dictionary</a></h4>
+									<p>英語でこんな時どういうの？そんな疑問にお答えする最高のコンテンツです。日本でよく使う「若者言葉」の英語を印象に残りやすいイメージ画像と頻出の例文を添えて掲載しています。</p>
+								</div>
+							</div>
+                         
+                         
+                         
+                          </div>
+                       </div>
+
+			
+                        </div>
+                       </div>
+                      </div>
+                     </div>   
+		
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+					<div class="row">
+						
+						<div class="col-md-3">
+							
+
+							<!-- Social Icons -->
+							<div class="margin-top-20">
+								<a href="https://www.facebook.com/MeltomoJapan?fref=ts" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
+
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="https://twitter.com/meltomojapan" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="Twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="https://instagram.com/meltomojapan/" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="Instagram">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+
+							</div>
+							<!-- /Social Icons -->
+
+							
+
+						</div>
+
+						<div class="col-md-3">
+
+							
+
+						</div>
+
+						<div class="col-md-2">
+
+
+						</div>
+
+						<div class="col-md-4">
+
+							<!-- Newsletter Form -->
+							<h4 class="letter-spacing-1">KEEP IN TOUCH</h4>
+							
+
+							<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Subscribe</button>
+									</span>
+								</div>
+							</form>
+							<!-- /Newsletter Form -->
+
+							
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="pull-right nomargin list-inline mobile-block">
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li>&bull;</li>
+							<li><a href="#">Privacy</a></li>
+						</ul>
+						&copy; All Rights Reserved, Company LTD
+					</div>
+				</div>
+			</footer>
+			<!-- /FOOTER -->
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = '../assets/plugins/';</script>
+		<script type="text/javascript" src="../assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+
+		<script type="text/javascript" src="../assets/js/scripts.js"></script>
+		
+		
+	</body>
+</html>

@@ -1,0 +1,7 @@
+#row-2nd {
+    position: relative;
+    background: url('../assets/images/meltomo/main.jpg') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 50px 0;
+  }
